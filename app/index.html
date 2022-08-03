@@ -5,84 +5,63 @@ engine: ejs
 current: index
 ---
 <div class="wrap">
-  <div class="banner flex-c">
-    <div class="banner-txt">
-      <h1>Here’s<br><big>JOANNE</big></h1>
-      <h2>Founder of “XXXD Official’’<br> & Graphic Designer</h2>
-      <div class="social-icon flex-spb">
-      <a href="javascript:;"><img src="./assets/images/behance.svg" alt=""></a>
-      <a href="javascript:;"><img src="./assets/images/facebook.svg" alt=""></a>
-      <a href="javascript:;"><img src="./assets/images/instagram.svg" alt=""></a>
-      <a href="javascript:;"><img src="./assets/images/youtube.svg" alt=""></a>
-    </div>
-  </div>
-</div>
-<section class="self-pro-wrap flex-column">
-  <div class="self-pro ">
-    <h2>About</h2>
-    <img src="./assets/images/photo.png" alt="">
-    <h3>Joanne Chen</h3>
-    <p>1997/10/10</p>
-    <p>National Hex School Normal University Department of Visual Design</p>
-  </div>
-  <ul>
-    <li>Founder of ‘’XXXD Official’’</li>
-    <li>Graphic Designer</li>
-    <li>Graphic Intern of Hex School</li>
-  </ul>
-</section>
-<section class="brand-name flex-column">
-  <h2>My Brand ‘’XXXD’’</h2>
-  <p>Just Keep XXXD Everyday</p>
-  <p>2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
-  <div class="pic flex-c">
-    <img src="./assets/images/brand_img1.png" alt="">
-    <img src="./assets/images/brand_img2.png" alt="">
-    <img src="./assets/images/brand_img3.png" alt="">
-  </div>
-</section>
-  <section class="our-work flex-column">
-    <h2>Other Works</h2>
-    <p>2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
-    <section class="flex-spb card-list">
-      <div class="card">
-        <img src="./assets/images/work_img1.png" alt="">
-        <p>海報設計/2017</p>
-      </div>
-      <div class="card">
-        <img src="./assets/images/work_img2.png" alt="">
-        <p>海報設計/2018</p>
-      </div>
-      <div class="card">
-        <img src="./assets/images/work_img3.png" alt="">
-        <p>海報設計/2018</p>
-      </div>
-      <div class="card">
-        <img src="./assets/images/work_img4.png" alt="">
-        <p>概念攝影/2018</p>
-      </div>
-      <div class="card">
-        <img src="./assets/images/work_img5.png" alt="">
-        <p>概念攝影/2018</p>
-      </div>
-      <div class="card">
-        <img src="./assets/images/work_img6.png" alt="">
-        <p>sasa 酒標設計/2019</p>
-      </div>
-      <div class="card">
-        <img src="./assets/images/work_img7.png" alt="">
-        <p>攝影創作/2018</p>
-      </div>
-      <div class="card">
-        <img src="./assets/images/work_img8.png" alt="">
-        <p>官網設計/2020</p>
-      </div>
+    <!-- 單純用section把它匡起來 -->
+    <section class="bb-1 container">
+        <h1 class="pb-24 title">Joanne Chen</h1>
     </section>
-  </section>
+    <section class="container">
+        <div class="photo">
+            <img src="./assets/images/photo.png" alt="">
+        </div>
+    </section>
+    <!-- small標籤 -->
+    <section class="container">
+        <h2 class="fz-32 pb-8 subtitle bb-1 mb-16">個人資料<small class="fz-24">PROFILE</small></h2>
+        <p class="mb-16 fz-24">陳久安 Joanne Chen<br>1997-<br>應屆畢業生／接案設計師／UI 設計實習生</p>
+        <p class="mb-16 fz-24">UI 設計修行中／立志當斜槓青年<br>獨立接案，內容涵蓋：<br>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</p>
+        <h2 class="fz-32 pb-8 subtitle bb-1 mb-16">學歷<small class="fz-24">EDUCATION</small></h2>
+        <h3 class="mb-16 fz-24">國立六角師範大學 視覺設計學系 學士學位 | 2016－2020</h3>
+        <h3 class="mb-64 fz-24">國立六腳高級中學 美術班 | 2013－2016</h3>
+    </section>
+    <section class="listbox-wrap mb-64">
+        <h2 class="fz-32 pb-8 subtitle">技能<small class="fz-24">SKILLS</small></h2>
+        <ul class="listbox fz-24">
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe XD</li>
+            <li>Adobe Indesign</li>
+            <li>C4D</li>
+            <li>Adobe Premiere</li>
+            <li>語言：中文、英文</li>
+        </ul>
+    </section>
+    <section class="container">
+        <h2 class="fz-32 pb-8 subtitle bb-1 mb-16">工作經驗<small class="fz-24">WORK EXPERIENCE</small></h2>
+        <div class="workbox">
+        <h3 class="fz-24 mb-24">六角學院 視覺設計實習生 | 2019/07－2020/06</h3>
+        <img src="./assets/images/hexschool.png" alt="">
+        <p class="fz-20 mb-24">在六角學院長達一年的實習中，前期藉由公司課程掌握 HTML, CSS, Adobe XD，設計給學員使用的名片設計教材，並參與六角週年活動，設計各式周邊商品及活動網路宣傳圖。後期進入 UI 設計範疇，設計六角共筆部落格 - W3HexSchool、六角發案服務網介面設計、供給學員的教 案- RWD官方網站設計，並設計各式網頁活動宣傳圖。</p>
+        <h3 class="fz-24 mb-24">獨立接案 Hao Jun 酒標設計 | 2019</h3>
+        <h3 class="fz-24 mb-24">獨立接案 Exulans 酒標設計 | 2019</h3>
+        <h3 class="fz-24 mb-24">獨立接案 桃園平鎮市民健走活動提案 | 2019</h3>
+        <h3 class="fz-24">Simtree 興趣咖啡 工讀生 | 2018－2019</h3>
+        <img src="./assets/images/simtree.png" alt="">
+        <p class="fz-20 mb-80">擔任外場及吧台服務生，學習咖啡相關知識。</p>
+    </div>
+    </section>
 
-<footer class="flex-column">
-  <h4>Contact</h4>
-  <h5>Mail：xxxd@hexschool.com</h5>
-  <h5>Phone Number：0910123456</h5>
-</footer>
+    <footer class="listbox-wrap">
+        <h4 class="fz-32 pb-8 subtitle mb-24">聯絡方式<small class="fz-24">CONTACT METHOD</small></h4>
+        <ul class="fz-24 mt-24">
+            <li class="mb-16">Mail：xxxd@hexschool.com</li>
+            <li class="mb-16">Phone：0910123456</li>
+            <li class="mb-16">Kaohsiung, Taiwan</li>
+            <li class="mb-16"><a href="">作品連結：https://www.behance.net/xxxdddddd</a></li>
+        </ul>
+        <div class="social">
+            <img src="./assets/images/facebook.svg" alt="">
+            <img src="./assets/images/instagram.svg" alt="">
+            <img src="./assets/images/line.svg" alt="">
+        </div>
+    </footer>
 </div>

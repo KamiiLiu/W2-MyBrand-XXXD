@@ -1,186 +1,123 @@
-$gray: #707070;
-$red: #891818;
-$black: #000000;
-$white: #FFFFFF;
-
-img {
-  width: 100%;
+$white:#FFFFFF;
+$black:#000000;
+$red:#A00404;
+$gray:#96A9C4;
+$blue:#415165;
+a{
+    text-decoration: none;
+    color: #fff;
 }
-
-h2 {
-  font-size: 64px;
-  line-height: 84px;
+.fz-20{
+    font-size: 20px;
+    line-height: 1.5;
 }
-
-.flex-spb {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.flex-column {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-c {
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.wrap {
-  margin: 0 auto;
-  max-width: 1920px;
-}
-
-.banner {
-  height: 958px;
-  background-image: url(../images/banner.png);
-}
-
-.banner-txt {
-  color: $white;
-  margin-left: -2px;
-
-  h1 {
+.fz-24{
     font-size: 24px;
-    line-height: 42px;
-
-    big {
-      font-size: 80px;
-      line-height: 106px;
-    }
-  }
-
-  h2 {
-    font-size: 24px;
-    line-height: 36px;
-    word-wrap: Break-word;
-    padding: 32px 0px 40px 13px;
-  }
-
-  a {
-    padding: 0 6px 0 10px;
-    display: block;
-    width: 60px;
-  }
-
-  a+a {
-    margin-left: 16px;
-  }
+    line-height: 1.5;
 }
-
-.self-pro-wrap {
-  padding: 56px 0;
-  font-size: 24px;
-  text-align: center;
-
-  .self-pro {
-    border-bottom: 1px solid #000;
-  }
-
-  h2 {
-    font-size: 64px;
-    margin-bottom: 40px;
-  }
-
-  img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  h3 {
-    line-height: 42px;
-    margin-bottom: 4px;
-  }
-
-  p {
-    line-height: 42px;
-    margin-bottom: 8px;
-  }
-
-  p:nth-of-type(2) {
-
-    width: 412px;
-    line-height: 36px;
+.fz-32{
+    font-size: 32px;
+    line-height: 1.5;
+}
+.pb-8{
+  padding-bottom: 8px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mt-24{
+    margin-top: 24px;
+}
+.mb-24{
     margin-bottom: 24px;
-  }
-
-  ul {
-    li {
-      line-height: 42px;
-      text-align: center;
-      padding-top: 28px;
-      list-style: circle;
-    }
-  }
 }
-.brand-name{
-  background-color: $black;
-  color: $white;
-  text-align: center;
-  padding: 56px 0 160px;
-  h2{
-    font-size: 64px;
-    line-height: 84px;
-    margin-bottom: 12px;
-  }
-  p{
-    font-size: 24px;
-    line-height: 42px;
-  }
-  p+p{
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 32px;
-  }
-  .pic{
-    margin-top: 68px;
+mb-48{
+    margin-bottom: 48px;
+}
+.mb-64{
+    margin-bottom: 64px;}
+.mb-80{
+margin-bottom: 80px;
+    }
+.wrap{
+    padding: 40px 0 0 0;
+}
+.container{
+    margin:0 360px;
+}
+.title{
+    font-size: 80px;
+    line-height: 95px;
+    width: 274px; 
+}
+.pb-24{
+    padding-bottom: 24px;
+}
+.bb-1{
+    border-bottom: 1px solid #000;
+}
+.photo{
+    padding: 48px 0;
+    width: 324px;
+    height: 324px;
+    border-radius: 50%;
     img{
-      width: 588px;
+        width: 100%;
     }
-    img:first-child{
-      //order: 1;
-      width: 792px;
-    }
-  }
 }
-.our-work {
-  .card-list {
-    max-width: 1200px;
-  }
-  >p{
-    margin: 16px 0 56px;
-    font-size: 20px;
-    line-height: 30px;
-  }
-  .card {
-    p {
-      text-align: center;
-      padding: 16px 0 48px;
-      font-size: 20px;
-      line-height: 42px;
+.subtitle{
+    small{
+        margin-left: 16px;
+        color: $red;
     }
-  }
+}
+.workbox{
+    margin-left: 23px;
+    padding-left: 24px;
+    border-left: 1px solid $gray;
+    img{
+        width: 100px;
+    }
+    p:first-of-type{
+        width: 642px;
+
+    }
+}
+.listbox-wrap{
+    padding: 24px 0 40px;
+    text-align: center;
+    color: $white;
+    background-color: $blue;
+    .subtitle{
+        width: 996px;
+        margin: 0 auto;
+        padding: 24px 0 0;
+        border-bottom: 1px solid #FFF;
+        small{
+            color: $white;
+            margin-left: 16px;
+        }
+    }
+}
+.listbox{
+    width: 192px;
+    margin: 40px auto;
+    padding-left: 24px;
+    border-left: 1px solid #fff;
+    li{
+        text-align: start;
+    }
+    li+li{
+       margin-top: 8px; 
+    }
 }
 footer{
-  text-align: center;
-  padding: 64px 0;
-  background-color:$black;
-  color: $white;
-  h4{
-    font-size: 64px;
-    line-height: 84px;
-  }
-  h5{
-    font-size: 24px;
-    line-height: 36px;
-    margin-top: 16px;
-  }
+    ul{
+        li+li{
+            
+        }
+    }
+    img+img{
+        margin-left: 24px;
+    }
 }
